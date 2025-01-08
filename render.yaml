@@ -3,7 +3,7 @@ services:
     name: your-static-site
     env: static
     buildCommand: echo "Build completed"
-    publishDirectory: /path/to/your/dist
+    publishDirectory: .
     headers:
       - key: "Access-Control-Allow-Origin"
         value: "*"
